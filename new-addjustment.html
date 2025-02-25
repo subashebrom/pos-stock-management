@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- === css link === -->
+    <link rel="stylesheet" href="css/new-addjustment.css">
+    <title>Manage Requisition</title>
+</head>
+
+<body>
+    <!-- === PARENT SECTION === -->
+    <div class="sh-parent-section">
+        <!-- === CHILD SECTION === -->
+        <div class="sh-child-section">
+            <!-- === TOP MENU ITEMS === -->
+            <div class="sh-top-menu-items">
+                <ul>
+                    <li class="sh-menu-items"><a href="addjustment-list.html">Addjustment List</a></li>
+                    <li class="sh-active-item"><a href="new-addjustment.html">New Addjustment</a></li>
+                </ul>
+            </div>
+            <!-- === NEW ADJUSTMENT CARD SECTION === -->
+            <div class="sh-adjustment-card-section">
+                <div class="sh-new-adjustment">
+                    <p>New Adjustment</p>
+                </div>
+                <hr>
+                <!-- === INPUT FOMR SECTION === -->
+                <div class="sh-input-fomr-section">
+                    <div class="sh-form-container">
+                        <label for="text">Date</label>
+                        <input type="text" placeholder="17/02/2025" name="" id="">
+                    </div>
+                    <div class="sh-form-container">
+                        <label for="text">Outlet</label>
+                        <select name="" id="">
+                            <option value="Default Outlet" name="outlet">Default Outlet</option>
+                        </select>
+                    </div>
+                    <div class="sh-form-container">
+                        <label for="text">Type</label>
+                        <select name="" id="">
+                            <option value="SelectOne" name="select">Select One</option>
+                            <option value="Addition" name="addition">Addition</option>
+                            <option value="Deduction" name="deduction">Deduction</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- === COMMENT BOX === -->
+                <div class="sh-comment-box">
+                    <label for="text">Details</label>
+                    <textarea name="" placeholder="Details" id=""></textarea>
+                </div>
+                <!-- === PRODUCT SEARCH BOX === -->
+                <div class="sh-product-search-box">
+                    <input type="search" placeholder="Enter Product Name, Product Model or Bar Code for Scan" name=""
+                        id="">
+                </div>
+                <!-- === TABLE === -->
+                <div class="sh-table-section">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="text-start">Product Name</th>
+                                <th class="text-end" width="8%">Av.Qty.</th>
+                                <th class="text-end" width="8%">Quantity</th>
+                                <th class="text-end" width="8%">Rate</th>
+                                <th class="text-end" width="8%">Total</th>
+                                <th class="text-end" width="5%">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-end" colspan="4">Total Amount</td>
+                                    <td class="total-amount"><p>0.00</p></td>
+                                <td class="text-end"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- === SAVE BUTTON === -->
+                 <div class="sh-save-button">
+                    <a href="#">Save</a>
+                 </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

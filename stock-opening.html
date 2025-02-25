@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- === css link === -->
+    <link rel="stylesheet" href="css/stock-opening.css">
+    <title>Manage Opening Stock</title>
+</head>
+
+<body>
+    <!-- === PARENT SECTION === -->
+    <div class="sh-parent-section">
+        <!-- === CHILD SECTION === -->
+        <div class="sh-child-section">
+            <!-- === TOP MENU ITEMS === -->
+            <div class="sh-top-menu-items">
+                <ul>
+                    <li class="sh-menu-items"><a href="opening-stock.html">Opening Stock List</a></li>
+                    <li class="sh-menu-items"><a href="add-opening-stock.html">Add Opening Stock</a></li>
+                    <li class="sh-active-item"><a href="stock-opening.html">Opening Stock CSV</a></li>
+                </ul>
+            </div>
+            <!-- === REQUISIION LIST SECTION === -->
+            <div class="sh-draft-sale-section">
+                <!-- === DRAFT SALE TOP ITEM === -->
+                <div class="sh-requisition-top-item">
+                    <p>CSV File Information</p>
+                    <!-- === DRAFT SALE TOP RIGHT ITMES === -->
+                    <div class="sh-draft-sale-top-right-items">
+                        <div class="sh-filter">
+                            <i class="fa-solid fa-circle-plus"></i>
+                            <a href="opening-stock.html">Manage Opening Stock</a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="some-info-text">
+                    <p>The first line in downloaded csv file should remain as it is. Please do not change the order of
+                        columns and Please be sure that all product is exists in your system. other wise stock will not
+                        updated</p>
+                </div>
+                <div class="sh-the-correct">
+                    <p>The correct column order is <span>(Warehouse Name, Product name,Expiry (is not required),
+                            Quantity,
+                            Rate & Total Price).</span></p>
+                </div>
+                <!-- === DOWNLOAD BUTTON === -->
+                <div class="sh-download-button">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i>Download Sample File</a>
+                </div>
+            </div>
+            <!-- === FOOTER SECITON === -->
+             <div class="sh-footer-section">
+                <div class="sh-opening">
+                    <p>Opening Stock CSV</p>
+                </div>
+                <hr>
+                <div class="sh-upload">
+                    <p>Upload Stock CSV</p>
+                    <div class="sh-file-upload">
+                        <input type="file"  name="" id="">
+                    <label for="text">Upload</label>
+                    </div>
+                </div>
+                <div class="sh-submit-button">
+                    <a href="#">Submit</a>
+                </div>
+             </div>
+        </div>
+    </div>
+    <!-- === FONT AWSOME LINK === -->
+    <script src="https://kit.fontawesome.com/aab4d24b6f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
