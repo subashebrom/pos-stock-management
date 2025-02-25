@@ -216,6 +216,9 @@ table th{
     align-items: center;
 }
 /* === FILTR === */
+.sh-show-click{
+    cursor: pointer;
+}
 .sh-filter{
     display: flex;
     align-items: center;
@@ -224,6 +227,10 @@ table th{
     border-radius: 5px;
     color: var(--white);
     background-color: var(--main-green);
+}
+.sh-filter p{
+    color: white;
+    font-size: var(--primary-para);
 }
 .sh-filter a{
     color: white;
